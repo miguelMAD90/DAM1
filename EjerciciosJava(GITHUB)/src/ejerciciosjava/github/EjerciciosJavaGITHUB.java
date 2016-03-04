@@ -17,14 +17,14 @@ public class EjerciciosJavaGITHUB {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner lector= new Scanner(System.in);
-      int num_a;
-      int num_b;
+      int A;
+      int B;
       int suma;
         System.out.println("Introduzca los numeros");
-        num_a=lector.nextInt();
-        num_b=lector.nextInt();
+        A=lector.nextInt();
+        B=lector.nextInt();
         
-        suma=num_a+num_b;
+        suma=A+B;
         System.out.println("La suma de los numeros es "+ suma);
     }
     
